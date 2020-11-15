@@ -23,7 +23,7 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
                 "© @synergyOT,
                 ALIVE_PIC
 
-                text="{}\nCurrently Loaded Plugins: {}".format(
+                text="{}\n hi see my master's devil workshop \nCurrently Loaded Plugins: {}".format(
 
                     query, len(CMD_LIST)),
 
@@ -40,7 +40,7 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
 
        
 
-]
+
             
         await event.answer([result] if result else None)
     @tgbot.on(events.callbackquery.CallbackQuery(  # pylint:disable=E0602
