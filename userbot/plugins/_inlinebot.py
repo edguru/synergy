@@ -22,7 +22,7 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
 
                 "© @synergyOT",
                 ALIVE_PIC
-                "hi see my master devil workshop.... "
+                "hi see my master devil workshop.... ",
                 text="{}\n Currently Loaded Plugins: {}".format(
 
                     query, len(CMD_LIST)),
