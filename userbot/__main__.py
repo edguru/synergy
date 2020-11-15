@@ -49,7 +49,7 @@ for name in files:
 
 import userbot._core
 
-print("?¤©?¤©?¤©Synergy Is Online.?¤©?¤©?¤©")
+print("Synergy Is Online.")
 
 if len(argv) not in (1, 3, 4):
     bot.disconnect()
