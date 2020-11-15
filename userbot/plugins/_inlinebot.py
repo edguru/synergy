@@ -20,7 +20,7 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
 
             result = builder.article(
 
-                "© @synergyOT,
+                "© @synergyOT",
                 ALIVE_PIC
 
                 text="{}\n hi see my master's devil workshop \nCurrently Loaded Plugins: {}".format(
