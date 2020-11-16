@@ -56,13 +56,32 @@ async def cmd_list(event):
         else:
             help_string = f"""Userbot Helper.. Provided by ✨{DEFAULTUSER}✨ \n
 `Userbot Helper to reveal all the commands`\n__Do .help plugin_name for commands, in case popup doesn't appear.__"""
-            results = await bot.inline_query(  # pylint:disable=E0602
-                await borg.send_file(event.chat_id,ALIVE_PIC,caption=help_string
+         await borg.send_file(event.chat_id,ALIVE_PIC,caption=help_string
+
                                     
+
                                     
+
                                     
+
                                    
+
 )
+         results = await bot.inline_query(  # pylint:disable=E0602
+                
+                
+
+                                    
+
+                tgbotusername,
+
+                help_string
+
+                                    
+
+                                   
+
+
             
             )
             await results[0].click(
