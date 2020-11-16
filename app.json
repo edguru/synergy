@@ -9,7 +9,7 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/edguru/synergy/blob/main",
+  "repository": "https://github.com/edguru/synergy/",
   "website": "#todo",
   "success_url": "https://t.me/synergySupportOfficial",
   "env": {
