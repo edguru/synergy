@@ -1,9 +1,18 @@
+import os
 from userbot import CMD_LIST
 from userbot import ALIVE_NAME
 from userbot.utils import admin_cmd
 from platform import uname
 import sys
 from telethon import events, functions, __version__
+
+ALIVE_PIC = Config.ALIVE_PHOTTO
+if ALIVE_PIC is None:
+
+   ALIVE_PIC = ""
+
+
+
 
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "UNKNOWN"
 
@@ -47,9 +56,33 @@ async def cmd_list(event):
         else:
             help_string = f"""Userbot Helper.. Provided by ✨{DEFAULTUSER}✨ \n
 `Userbot Helper to reveal all the commands`\n__Do .help plugin_name for commands, in case popup doesn't appear.__"""
+            await borg.send_file(event.chat_id,ALIVE_PIC,caption="😈😈 Welcome to the devil's workshop"
+
+                                    
+
+                                    
+
+                                    
+
+                                   
+
+)
             results = await bot.inline_query(  # pylint:disable=E0602
+                
+                
+
+                                    
+
                 tgbotusername,
+
                 help_string
+
+                                    
+
+                                   
+
+
+            
             )
             await results[0].click(
                 event.chat_id,

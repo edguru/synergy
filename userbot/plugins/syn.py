@@ -12,11 +12,11 @@ async def _(event):
     if event.fwd_from:
         return
     start = datetime.now()
-    event = await edit_or_reply(event, "**★Hell!**")
+    event = await edit_or_reply(event, "**★devil😈😈**")
     end = datetime.now()
     ms = (end - start).microseconds / 1000
     await event.edit(
-        f"**★ SYNERGY**\n★ 😈{ms}👿\n★ My Peru Master:-{DEFAULTUSER}"
+        f"**★ SYNERGY**\n★ 🔥{ms}🔥\n★ My Peru Master:-{DEFAULTUSER}"
     )
 
 
