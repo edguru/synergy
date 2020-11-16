@@ -48,7 +48,7 @@ ALIVE_MESSAGE += "ʟɪᴄᴇɴꜱᴇ                 : [ᴍɪᴛ ʟɪᴄᴇɴꜱ
 ALIVE_MESSAGE += "ᴄᴏᴘʏʀɪɢʜᴛ ʙʏ            : [gym2105](https://t.me/Gym2105)\n"
 
 
-ALIVE_MESSAGE += "Wooshhh💨💨💨 /n Looks like my master {DEFAULTUSER} HAS SUMMONED ME. /n It's time for me to perform my duties . /n hey those who go against my master's will fear my eye of thousand years of death👁️. And those in the good book thanks for being with my master . You Are a true friend🤝"
+ALIVE_MESSAGE += f"Wooshhh💨💨💨 \n Looks like my master: {DEFAULTUSER} HAS SUMMONED ME. \n ** It's time for me to perform my duties☠️☠️ **. \n Hey those who go against my master's will fear 🩸🩸my eye of thousand years of death👁️. \n And those in the good book ❣️❣️thanks for being with my master . You Are a true friend🤝"
 
 
 ALIVE_MESSAGE +=" [synergy](https://t.me/synergyOT)"
