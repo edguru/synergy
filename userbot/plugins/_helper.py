@@ -6,7 +6,14 @@ from platform import uname
 import sys
 from telethon import events, functions, __version__
 
-ALIVE_PIC = Config.ALIVE_PHOTTO,
+ALIVE_PIC = Config.ALIVE_PHOTTO
+if ALIVE_PIC is None:
+
+   ALIVE_PIC = ""
+
+
+
+
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "UNKNOWN"
 
 @command(pattern="^.help ?(.*)")
@@ -50,8 +57,13 @@ async def cmd_list(event):
             help_string = f"""Userbot Helper.. Provided by ✨{DEFAULTUSER}✨ \n
 `Userbot Helper to reveal all the commands`\n__Do .help plugin_name for commands, in case popup doesn't appear.__"""
             results = await bot.inline_query(  # pylint:disable=E0602
-                tgbotusername,
-                help_string
+                await borg.send_file(awake.chat_id, ALIVE_PIC,caption=help_string
+                                    
+                                    
+                                    
+                                   
+)
+            
             )
             await results[0].click(
                 event.chat_id,
