@@ -24,9 +24,34 @@ if ALIVE_PIC is None:
 
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Set ALIVE_NAME in config vars in Heroku"
 
-ALIVE_MESSAGE = Config.ALIVE_MSG
-if ALIVE_MESSAGE is None:
-   ALIVE_MESSAGE = "**🔱SYNERGY IS Awake🔱 \n\n\n**"
+LIVE_MESSAGE = Config.ALIVE_MSG
+if LIVE_MESSAGE is None:
+   LIVE_MESSAGE = "SYNERGY IS ONLINE"
+ALIVE_MESSAGE = LIVE_MESSAGE
+ALIVE_MESSAGE += " **THE DEVIL HAS BEEN AWAKENED BY **"
+
+ALIVE_MESSAGE += f"**M̴y̴ ̴̴̴̴̴̴̴̴̴̴̴̴̴̴̴̴MA⃨s̤̈T̰̃E̫尺**            : {DEFAULTUSER}\n"
+
+
+ALIVE_MESSAGE += "ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀꜱɪᴏɴ        :  15.0.0 \n"
+
+
+ALIVE_MESSAGE += "MAGIC CHANNEL          : [ᴊᴏɪɴ](https://t.me/SynergysupportOfficial)\n"
+
+
+ALIVE_MESSAGE += "DARKEST GROUP        : [ᴊᴏɪɴ](https://t.me/synergyOT)\n"
+
+
+ALIVE_MESSAGE += "ʟɪᴄᴇɴꜱᴇ                 : [ᴍɪᴛ ʟɪᴄᴇɴꜱᴇ](https://github.com/edguru/synergy/blob/master/LICENSE)\n"
+
+
+ALIVE_MESSAGE += "ᴄᴏᴘʏʀɪɢʜᴛ ʙʏ            : [gym2105](https://t.me/Gym2105)\n"
+
+
+ALIVE_MESSAGE += f"Wooshhh💨💨💨 \n Looks like my master: {DEFAULTUSER} HAS SUMMONED ME. \n ** It's time for me to perform my duties☠️☠️ **. \n Hey those who go against my master's will fear 🩸🩸my eye of thousand years of death👁️. \n And those in the good book ❣️❣️thanks for being with my master . You Are a true friend🤝"
+
+
+ALIVE_MESSAGE +=" [synergy](https://t.me/synergyOT)"
                 
             
 #@command(outgoing=True, pattern="^.awake$")
