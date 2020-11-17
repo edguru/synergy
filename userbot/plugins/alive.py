@@ -2,6 +2,27 @@ import asyncio
 from telethon import events
 from userbot.utils import admin_cmd
 from userbot import ALIVE_NAME
+import random
+
+import re
+
+import time
+
+
+
+from collections import deque
+
+import requests
+
+from telethon.tl.functions.users import GetFullUserRequest
+
+from telethon.tl.types import MessageEntityMentionName
+
+from cowpy import cow
+
+from userbot import CMD_HELP,YOUTUBE_API_KEY
+
+from userbot.utils import register,admin_cmd
 from userbot.plugins.alimg import POTO
 from telethon.tl.types import ChannelParticipantsAdmins
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "My Boss"
