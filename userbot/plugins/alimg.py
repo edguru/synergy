@@ -33,9 +33,10 @@ IMAGE_PACK = [
     "https://telegra.ph/file/bfaad699de64bb30cde81.jpg",
     "https://telegra.ph/file/e89d4e34f6a458766f51d.jpg",
 ]
-POTO = random.choice(IMAGE_PACK)
+
 @borg.on(admin_cmd(pattern=r"alimg"))
 async def amireallyaliveimg(alimg):
+    POTO = random.choice(IMAGE_PACK)
     chat = await alimg.get_chat()
     await alimg.delete()
     """ For .alimg command, check if the bot is alive.  """
