@@ -55,4 +55,4 @@ async def sprinkle(event):
 async def sprinkle(event):
     if event.fwd_from:
         return
-    await event.edit("** I AM VERY SAD **")
+    await event.edit("** I AM VERY SAD ಠ_ಠ(⊃｡•́‿•̀｡)⊃🥺🥺🥺🥺🥺**")
