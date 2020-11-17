@@ -231,8 +231,8 @@ async def fetch_info(replied_user, event):
     )
     username = "@{}".format(username) if username else ("This User has no Username")
     user_bio = "This User has no About" if not user_bio else user_bio
-    caption = "<b>USER INFO from SYNERGY's database :</b>\n\n"
-    caption = "<b>wooshhhhh doingg my black magic:</b>\n\n"
+    caption = "<b>USER INFO from SYNERGY's ⚔️⚔️database :</b>\n\n"
+    caption = "<b>wooshhhhh 💫💫doingg my black magic🎃🎃:</b>\n\n"
     caption += f"👤First Name: {first_name} {last_name}\n"
     caption += f"🤵Username: {username}\n"
     caption += f"🔖ID: <code>{user_id}</code>\n"
@@ -244,7 +244,7 @@ async def fetch_info(replied_user, event):
     caption += f"✍️Bio: \n<code>{user_bio}</code>\n\n"
     caption += f"👥Common Chats with this user: {common_chat}\n\n"
     caption += f"🔗Permanent Link To Profile: "
-    caption = "<b>VICTIM IN CLUTCHES</b>\n\n"
+    caption = "<b>VICTIM 🥺🥺IN CLUTCHES💪💪</b>\n\n"
     caption += f'<a href="tg://user?id={user_id}">{first_name}</a>'
     return photo, caption
 
