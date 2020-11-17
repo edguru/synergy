@@ -23,7 +23,7 @@ from cowpy import cow
 from userbot import CMD_HELP,YOUTUBE_API_KEY
 
 from userbot.utils import register,admin_cmd
-from userbot.plugins.alimg import POTO
+
 from telethon.tl.types import ChannelParticipantsAdmins
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "My Boss"
 IMAGE_PAC = [
