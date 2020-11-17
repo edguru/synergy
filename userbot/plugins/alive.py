@@ -2,9 +2,10 @@ import asyncio
 from telethon import events
 from userbot.utils import admin_cmd
 from userbot import ALIVE_NAME
+from userbot.plugins.alimg import POTO
 from telethon.tl.types import ChannelParticipantsAdmins
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "My Boss"
-PM_IMG = "https://telegra.ph/file/266a1d83d0ca0f9c30c25.jpg"
+PM_IMG = POTO
 pm_caption = "**Synergy ɪꜱ ON IT'S TOES**\n"
 
 pm_caption += f"**M̴y̴ ̴̴̴̴̴̴̴̴̴̴̴̴̴̴̴̴MA⃨s̤̈T̰̃E̫尺**            : {DEFAULTUSER}\n"
