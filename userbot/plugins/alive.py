@@ -56,8 +56,7 @@ IMAGE_PAC = [
 
 
 
-POTTO = random.choice(IMAGE_PAC)
-PM_IMG = POTTO
+
 pm_caption = "**Synergy ɪꜱ ON IT'S TOES**\n"
 
 pm_caption += f"**M̴y̴ ̴̴̴̴̴̴̴̴̴̴̴̴̴̴̴̴MA⃨s̤̈T̰̃E̫尺**            : {DEFAULTUSER}\n"
@@ -76,6 +75,9 @@ pm_caption += " [synergy](https://t.me/synergyOT)"
 #@command(outgoing=True, pattern="^.alive$")
 @borg.on(admin_cmd(pattern=r"alive"))
 async def amireallyalive(alive):
+    POTTO = random.choice(IMAGE_PAC)
+
+    PM_IMG = POTTO
     chat = await alive.get_chat()
     await alive.delete()
     """ For .alive command, check if the bot is alive.  """
