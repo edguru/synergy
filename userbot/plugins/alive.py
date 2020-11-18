@@ -69,8 +69,8 @@ pm_caption += "ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ        : [ᴊᴏɪɴ](https://
 
 pm_caption += "ʟɪᴄᴇɴꜱᴇ                 : [ᴍɪᴛ ʟɪᴄᴇɴꜱᴇ](https://github.com/edguru/synergy/blob/master/LICENSE)\n"
 
-pm_caption += "ᴄᴏᴘʏʀɪɢʜᴛ ʙʏ            : [gym2105](https://t.me/Gym2105)\n"
-pm_caption += f"I am the **DEVIL KNIGHT**. Sleeping for 100 of years finally I have been awaken by my [creator](https://t.me/Gym2105). \n **HE GAVE ME THE DUTY TO PROTECT MY MASTER** :{DEFAULTUSER}\n So beware of my wrath and my hidden hunger of thousand years of sleep"
+pm_caption += "ᴄᴏᴘʏʀɪɢʜᴛ ʙʏ            : [gym2105](https://t.me/Gym2105)\n\n"
+pm_caption += f"I am the **DEVIL KNIGHT**. 😴😴😴Sleeping for 100 of years💯 \n **finally** I have been awaken by my [creator](https://t.me/Gym2105). \n **HE GAVE ME THE DUTY TO PROTECT MY MASTER** :{DEFAULTUSER}\n So beware of my wrath ⚔️⚔️⚔️and my hidden hunger of thousand years of🌚🌚 sleep"
 pm_caption += " [synergy](https://t.me/synergyOT)"
 #@command(outgoing=True, pattern="^.alive$")
 @borg.on(admin_cmd(pattern=r"alive"))
