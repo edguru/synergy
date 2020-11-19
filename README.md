@@ -1,4 +1,4 @@
-<p align="center"><a href="https://t.me/synergyOt"><img src="https://telegra.ph/file/266a1d83d0ca0f9c30c25.jpg" width="5000"></a></p> 
+<p align="center"><a href="https://t.me/synergyOt"><img src="https://telegra.ph/file/1ab92cc6f82851b0a7106.jpg" width="5000"></a></p> 
 <h1 align="center"><b>SYNERGY-USERBOT🔥 </b></h1>
 <h4 align="center">A Powerful, Versatile And intelligent Userbot In Telethon.</h4>
 
