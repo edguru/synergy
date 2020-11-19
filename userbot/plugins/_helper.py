@@ -4,6 +4,7 @@ from userbot import ALIVE_NAME
 from userbot.utils import admin_cmd
 from platform import uname
 import sys
+import random
 from telethon import events, functions, __version__
 
 ALIVE_PICC = ["https://telegra.ph/file/1db05bd84d237e81b2475.mp4" ,
