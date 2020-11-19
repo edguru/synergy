@@ -6,12 +6,10 @@ from platform import uname
 import sys
 from telethon import events, functions, __version__
 
-ALIVE_PIC = Config.ALIVE_PHOTTO
-if ALIVE_PIC is None:
+ALIVE_PICC = ["https://telegra.ph/file/1db05bd84d237e81b2475.mp4" ,
+               "https://telegra.ph/file/afcc47e2d046b016fc2a7.mp4"
 
-   ALIVE_PIC = ""
-
-
+             ]
 
 
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "UNKNOWN"
@@ -56,6 +54,7 @@ async def cmd_list(event):
         else:
             help_string = f"""Userbot Helper.. Provided by ✨{DEFAULTUSER}✨ \n
 `Userbot Helper to reveal all the commands`\n__Do .help plugin_name for commands, in case popup doesn't appear.__"""
+            ALIVE_PIC = random.choice(ALIVE_PICC)
             await borg.send_file(event.chat_id,ALIVE_PIC,caption="😈😈 Welcome to the devil's workshop"
 
                                     
