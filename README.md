@@ -24,7 +24,7 @@
 
 # String
 
-[![Run on Repl.it](https://repl.it/badge/github/gym2105/synergy)](https://Synergy.gauravmishra7.repl.run)
+[![Run on Repl.it](https://repl.it/badge/github/gym2105/synergy)](https://repl.it/@GauravMishra7/Synergy#main.py)
 
 
 
