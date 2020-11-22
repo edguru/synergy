@@ -24,7 +24,7 @@ async def cmd_list(event):
         if tgbotusername is None or input_str == "text":
             string = ""
             for i in CMD_LIST:
-                string += "⚡️" + i + "\n"
+                string += "🔥" + i + "\n"
                 for iter_list in CMD_LIST[i]:
                     string += "    `" + str(iter_list) + "`"
                     string += "\n"
