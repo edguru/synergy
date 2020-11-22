@@ -55,9 +55,9 @@ async def cmd_list(event):
         else:
             help_string = f"""Userbot Helper.. devil tool summoned by ✨{DEFAULTUSER}✨ \n
 `Userbot Helper to reveal all the commands`\n__Do .help plugin_name for commands, in case popup doesn't appear.__"""
-          ALIVE_PIC = random.choice(ALIVE_PICC)
-          await borg.send_file(event.chat_id,ALIVE_PIC,caption="😈😈 Welcome to the devil's workshop"
-          results = await bot.inline_query(  # pylint:disable=E0602
+            ALIVE_PIC = random.choice(ALIVE_PICC)
+            await borg.send_file(event.chat_id,ALIVE_PIC,caption="😈😈 Welcome to the devil's workshop"
+            results = await bot.inline_query(  # pylint:disable=E0602
                 tgbotusername,
                 help_string
             )
