@@ -13,7 +13,7 @@ ALIVE_PICC = ["https://telegra.ph/file/1db05bd84d237e81b2475.mp4" ,
              ]
 
 
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "UNKNOWN"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "SYNERGY DEVIL"
 
 @command(pattern="^.help ?(.*)")
 #@borg.on(admin_cmd(pattern=r"help ?(.*)"))
@@ -37,7 +37,7 @@ async def cmd_list(event):
                         out_file,
                         force_document=True,
                         allow_cache=False,
-                        caption="**COMMANDS** In Team SYNERGY",
+                        caption="**COMMANDS** In ＤａＲｋ　ｐＲｉＮｃＥ",
                         reply_to=reply_to_id
                     )
                     await event.delete()
@@ -53,36 +53,13 @@ async def cmd_list(event):
             else:
                 await event.edit(input_str + " is not a valid plugin!")
         else:
-            help_string = f"""Userbot Helper.. Provided by ✨{DEFAULTUSER}✨ \n
+            help_string = f"""Userbot Helper.. devil tool summoned by ✨{DEFAULTUSER}✨ \n
 `Userbot Helper to reveal all the commands`\n__Do .help plugin_name for commands, in case popup doesn't appear.__"""
-            ALIVE_PIC = random.choice(ALIVE_PICC)
-            await borg.send_file(event.chat_id,ALIVE_PIC,caption="😈😈 Welcome to the devil's workshop"
-
-                                    
-
-                                    
-
-                                    
-
-                                   
-
-)
-            results = await bot.inline_query(  # pylint:disable=E0602
-                
-                
-
-                                    
-
+          ALIVE_PIC = random.choice(ALIVE_PICC)
+          await borg.send_file(event.chat_id,ALIVE_PIC,caption="😈😈 Welcome to the devil's workshop"
+          results = await bot.inline_query(  # pylint:disable=E0602
                 tgbotusername,
-
                 help_string
-
-                                    
-
-                                   
-
-
-            
             )
             await results[0].click(
                 event.chat_id,
@@ -106,7 +83,7 @@ async def _(event):
     result = await borg(functions.help.GetConfigRequest())  # pylint:disable=E0602
     result = result.stringify()
     logger.info(result)  # pylint:disable=E0602
-    await event.edit("""Telethon UserBot Powered by @synergyOT""")
+    await event.edit("""Telethon UserBot powered by @synergyOT""")
 
 
 @borg.on(admin_cmd(pattern="syntax (.*)"))
@@ -117,7 +94,7 @@ async def _(event):
 
     if plugin_name in CMD_LIST:
         help_string = CMD_LIST[plugin_name].__doc__
-        unload_string = f"Use `.unload {plugin_name}` to remove this plugin.\n           @synergyOT ©"
+        unload_string = f"Use `.unload {plugin_name}` to remove this plugin.\n  "
         
         if help_string:
             plugin_syntax = f"Syntax for plugin **{plugin_name}**:\n\n{help_string}\n{unload_string}"
