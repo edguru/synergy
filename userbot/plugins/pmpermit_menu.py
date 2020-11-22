@@ -13,10 +13,10 @@ PREV_REPLY_MESSAGE = {}
 #---------------------------Constants-----------------------
 PM = ("`Hello. You are accessing the availabe menu of my peru master,`"
                f"{DEFAULTUSER}.\n"
-               "__Let's make this smooth and let me know why you are here.__\n"
+               "__Let's make this easy for you and let me know why you are here.__\n"
                "**Choose one of the following reasons why you are here:**\n\n"
-               "`1`. To chat with my master\n"
-               "`2`. To Give Your Details.\n"
+               "`1`. want a chit chat with master\n"
+               "`2`. spam him.\n"
                "`3`. To enquire something\n"
                "`4`. To request something\n")
 ONE = ("__Okay. Your request has been registered. Do not spam my master's inbox.You can expect a reply within 24 light years. He is a busy guy, unlike you probably.__\n\n"
