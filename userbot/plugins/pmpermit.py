@@ -38,7 +38,7 @@ USER_BOT_NO_WARN = ("`Hello, This Is An Antispam Userbot Service⚠️. I am the
 
 
 if Var.PRIVATE_GROUP_ID is not None:
-    @borg.on(admin_cmd(pattern="ap ?(.*)"))
+    @borg.on(admin_cmd(pattern="app ?(.*)"))
     async def approve_p_m(event):
         if event.fwd_from:
            return
@@ -92,7 +92,7 @@ if Var.PRIVATE_GROUP_ID is not None:
                 await asyncio.sleep(2)
                 await event.client(functions.contacts.BlockRequest(chat.id))
 
-    @command(pattern="^.dap ?(.*)")
+    @command(pattern="^.dapp ?(.*)")
     async def approve_p_m(event):
         if event.fwd_from:
             return
