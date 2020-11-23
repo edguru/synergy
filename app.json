@@ -40,7 +40,7 @@
     },
     "ALIVE_PHOTTO": {
       "description": "pic you want to be shown in .summon command",
-      "value": "https://telegra.ph/file/0d0fafe17acca1c51b42d.jpg",
+      "value": "",
       "required": true
     },
     "BIO_MSG": {
@@ -50,7 +50,7 @@
     },
     "PMPERMIT_PIC": {
       "description": "put here any telegraph media link for pmpermit custom pic.",
-      "value": "https://telegra.ph/file/ad8430d78a8e1adb3d8ea.jpg",
+      "value": "",
       "required": true
     },
     "PM_PERMIT_GROUP_ID": {
