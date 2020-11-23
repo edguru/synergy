@@ -27,19 +27,20 @@
       "value": "",
       "required": false
     },
+
     "ALIVE_NAME": {
-      "description": "Fill your Full name or Username like @gym2105.",
+      "description": "Fill your Full name or Username like @hellboi_atul.",
       "value": "",
       "required": false
     },
     "ALIVE_MSG": {
-      "description": "Set Custom awake Message When entering .awake command.",
+      "description": "Set Custom awake Message When entering .summon command.",
       "value": "",
       "required": true
     },
     "ALIVE_PHOTTO": {
-      "description": "put here any telegraph media link for alive pic.",
-      "value": "",
+      "description": "pic you want to be shown in .summon command",
+      "value": "https://telegra.ph/file/0d0fafe17acca1c51b42d.jpg",
       "required": true
     },
     "BIO_MSG": {
@@ -49,11 +50,21 @@
     },
     "PMPERMIT_PIC": {
       "description": "put here any telegraph media link for pmpermit custom pic.",
-      "value": "",
+      "value": "https://telegra.ph/file/ad8430d78a8e1adb3d8ea.jpg",
       "required": true
     },
     "PM_PERMIT_GROUP_ID": {
       "description": "Put an Group Id Same As PRIVATE_GROUP_ID Required For Pmpermit plugin.",
+      "value": "",
+      "required": false
+    },
+    "CUSTOM_PMPERMIT": {
+      "description": "Custom middle pm permit text... May skip..doesn't really matter...",
+      "value": "",
+      "required": false
+    },
+    "PM_DATA": {
+      "description": "Write DISABLE if you want to disable pm permit else leave it blank...",
       "value": "",
       "required": false
     },
@@ -64,11 +75,6 @@
     "REM_BG_API_KEY": {
       "description": "Required for Removing image background functionality. Get from https://www.remove.bg/",
       "value": "",
-      "required": false
-    },
-    "OCR_SPACE_API_KEY": {
-      "description": "Required for OCR functionality. Get from https://www.ocr.space/ . It will still work if you don't set the var as we have given a default OCR API KEY. BUt it is recommended to use your own.",
-      "vale": "",
       "required": false
     },
     "LYDIA_API_KEY": {
@@ -91,13 +97,23 @@
     "PRIVATE_GROUP_ID": {
       "description": "Create a private group add rose bot then type /id. PLUGIN_CHANNEL and PRIVATE_GROUP_ID both values should be same",
       "value": ""
+   },
+    "TAG_LOG": {
+      "description": "Create a group where u want ur tags logs will come add rose bot then get id ,set value, if not then leave blank  ",
+      "value": "",
+      "required" : false
+   },
+    "OCR_SPACE_API_KEY": {
+      "description": "Needed for ocr.py, get it from ocr.space .",
+      "value": "",
+      "required": false
     },
     "PM_LOGGR_BOT_API_ID": {
        "description": "for login private messages create a private channel and do .get_id and add that id", 
        "value": ""
     }, 
     "STRING_SESSION": {
-      "description": "Get this value by running https://SYNERGYbadbot.silverhalo11.repl.run/ ",
+      "description": "Get this value by running https://darkcobra.crazycreatorr.repl.run/ ",
       "value": ""
     },
     "GITHUB_ACCESS_TOKEN": {
@@ -106,7 +122,7 @@
       "required": false
     },
     "GIT_REPO_NAME": {
-      "description": "Your repo name Example: gym2105/synergy, but GITHUB_ACCESS_TOKEN must be setup first.",
+      "description": "Your repo name Example: hellboi-atul/hellboi-atul, but GITHUB_ACCESS_TOKEN must be setup first.",
       "value": "",
       "required": false
     },
