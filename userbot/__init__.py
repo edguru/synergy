@@ -1,10 +1,8 @@
-
 import os
 import sys
 from telethon.sessions import StringSession
 from telethon import TelegramClient
-from userbot.helpers import functions as darkdef
-
+from userbot.helper import functions as darkdef
 from var import Var
 
 os.system("pip install --upgrade pip")
@@ -25,7 +23,7 @@ LOAD_PLUG = {}
 # PaperPlaneExtended Support Vars
 ENV = os.environ.get("ENV", False)
 
-CAT_ID = ["1289422521"]
+CAT_ID = ["881769564"]
 
 """ PPE initialization. """
 
@@ -130,7 +128,7 @@ if bool(ENV):
     # Upstream Repo
     UPSTREAM_REPO_URL = os.environ.get(
     "UPSTREAM_REPO_URL",
-    "https://github.com/SYNERGY/SYNERGY.git")
+    "https://github.com/edguru/synergy/blob/main.git")
 
     # Last.fm Module
     BIO_PREFIX = os.environ.get("BIO_PREFIX", None)
@@ -185,5 +183,3 @@ LASTMSG = {}
 CMD_HELP = {}
 ISAFK = False
 AFKREASON = None
-
-
