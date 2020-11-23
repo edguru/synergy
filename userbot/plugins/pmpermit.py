@@ -88,7 +88,7 @@ if Var.PRIVATE_GROUP_ID is not None:
           else:
             if pmpermit_sql.is_approved(chat.id):
                 pmpermit_sql.disapprove(chat.id)
-                await event.edit("Your fuqin request has been blocked by my sweet master!!**[{}](tg://user?id={})".format(firstname, chat.id))
+                await event.edit("Your request has been blocked by my master!!**[{}](tg://user?id={})".format(firstname, chat.id))
                 await asyncio.sleep(2)
                 await event.client(functions.contacts.BlockRequest(chat.id))
 
