@@ -174,6 +174,7 @@ def admin_cmd(pattern=None, **args):
             args["pattern"] = re.compile(Config.COMMAND_HAND_LER + pattern)
             reg =Config.COMMAND_HAND_LER[1]
             cmd = (reg +pattern).replace("$", "").replace("\\", "").replace("^", "")
+
             try:
                 CMD_LIST[file_test].append(cmd)
             except:
@@ -289,7 +290,7 @@ def errors_handler(func):
 
             text = "**USERBOT CRASH REPORT**\n\n"
 
-            link = "[here](https://t.me/synergyOT)"
+            link = "[here](https://t.me/synergyOT"
             text += "If you wanna you can report it"
             text += f"- just forward this message {link}.\n"
             text += "Nothing is logged except the fact of error and date\n"
