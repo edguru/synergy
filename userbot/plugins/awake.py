@@ -28,9 +28,9 @@ LIVE_MESSAGE = Config.ALIVE_MSG
 if LIVE_MESSAGE is None:
    LIVE_MESSAGE = "SYNERGY IS ONLINE"
 ALIVE_MESSAGE = LIVE_MESSAGE
-ALIVE_MESSAGE += " **THE DEVIL HAS BEEN AWAKENED BY **"
+ALIVE_MESSAGE += " **THE DEVIL HAS BEEN AWAKENED BY \n **"
 
-ALIVE_MESSAGE += f"**M̴y̴ ̴̴̴̴̴̴̴̴̴̴̴̴̴̴̴̴MA⃨s̤̈T̰̃E̫尺**            : {DEFAULTUSER}\n"
+ALIVE_MESSAGE += f"**M̴y̴ ̴̴̴̴̴̴̴̴̴̴̴̴̴̴̴̴MA⃨s̤̈T̰̃E̫尺**            : {DEFAULTUSER}\n\n"
 
 
 ALIVE_MESSAGE += "ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀꜱɪᴏɴ        :  15.0.0 \n"
@@ -48,7 +48,7 @@ ALIVE_MESSAGE += "ʟɪᴄᴇɴꜱᴇ                 : [ᴍɪᴛ ʟɪᴄᴇɴꜱ
 ALIVE_MESSAGE += "ᴄᴏᴘʏʀɪɢʜᴛ ʙʏ            : [gym2105](https://t.me/Gym2105)\n"
 
 
-ALIVE_MESSAGE += f"Wooshhh💨💨💨 \n Looks like my master: {DEFAULTUSER} HAS SUMMONED ME. \n ** It's time for me to perform my duties☠️☠️ **. \n Hey those who go against my master's will fear 🩸🩸my eye of thousand years of death👁️. \n And those in the good book ❣️❣️thanks for being with my master . You Are a true friend🤝"
+ALIVE_MESSAGE += f"Wooshhh💨💨💨 \n Looks like my master: {DEFAULTUSER} HAS SUMMONED ME⚔️. \n ** It's time for me to perform my 🗡️duties☠️☠️ **. \n Hey those who go against my master's will fear 🩸🩸my eye of thousand years of death👁️. \n And those in the good book ❣️❣️thanks for being with my master . You Are a true friend🤝"
 
 
 ALIVE_MESSAGE +=" [synergy](https://t.me/synergyOT)"

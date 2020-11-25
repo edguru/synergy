@@ -50,3 +50,9 @@ async def sprinkle(event):
     if event.fwd_from:
         return
     await event.edit("✨.•*¨*.¸.•*¨*.¸¸.•*¨*• ƸӜƷ\n🌸🌺🌸🌺🌸🌺🌸🌺\n Sprinkled with love❤\n🌷🌻🌷🌻🌷🌻🌷🌻\n ¨*.¸.•*¨*. ¸.•*¨*.¸¸.•*¨`*•.✨\n🌹🍀🌹🍀🌹🍀🌹🍀")
+
+@borg.on(admin_cmd(pattern=r"sadd"))
+async def sprinkle(event):
+    if event.fwd_from:
+        return
+    await event.edit("** I AM VERY SAD ಠ_ಠ(⊃｡•́‿•̀｡)⊃🥺🥺🥺🥺🥺**")
